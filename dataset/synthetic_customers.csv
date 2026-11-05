@@ -1,0 +1,601 @@
+sequence_id,customer_id,archetype,behaviour,observations,hidden_states,length,purchased,ended_with
+1,SIM-0001,typical_shopper,Cart abandonment,Cart|Exit,Interested|Browsing,2,0,Exit
+2,SIM-0002,typical_shopper,High purchase intent,View|Cart|Purchase,Interested|Interested|Ready,3,1,Purchase
+3,SIM-0003,decisive_buyer,Checkout abandonment,View|Cart|Checkout|Exit,Browsing|Browsing|Interested|Interested,4,0,Exit
+4,SIM-0004,decisive_buyer,High purchase intent,View|View|Cart|Purchase,Interested|Interested|Interested|Ready,4,1,Purchase
+5,SIM-0005,comparison_shopper,Checkout abandonment,View|View|View|Cart|View|Checkout|Cart|View|View|View|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Interested|Interested|Browsing|Browsing|Browsing|Browsing,12,0,Session timeout
+6,SIM-0006,casual_browser,Casual browsing,View|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+7,SIM-0007,cart_abandoner,Cart abandonment,View|View|Cart,Browsing|Browsing|Browsing,3,0,Session timeout
+8,SIM-0008,casual_browser,Cart abandonment,View|View|Cart|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+9,SIM-0009,decisive_buyer,Cart abandonment,View|Cart|Cart|Cart,Browsing|Interested|Interested|Interested,4,0,Session timeout
+10,SIM-0010,comparison_shopper,High purchase intent,View|View|View|Purchase,Browsing|Browsing|Browsing|Interested,4,1,Purchase
+11,SIM-0011,typical_shopper,High purchase intent,Purchase,Ready,1,1,Purchase
+12,SIM-0012,typical_shopper,Checkout abandonment,View|Checkout|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+13,SIM-0013,typical_shopper,Repeated product viewing,View|View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+14,SIM-0014,casual_browser,Casual browsing,View|View|Exit,Browsing|Browsing|Browsing,3,0,Exit
+15,SIM-0015,cart_abandoner,High purchase intent,View|Purchase,Browsing|Browsing,2,1,Purchase
+16,SIM-0016,cart_abandoner,High purchase intent,View|View|View|Purchase,Browsing|Browsing|Browsing|Interested,4,1,Purchase
+17,SIM-0017,casual_browser,Cart abandonment,View|View|Cart,Browsing|Browsing|Browsing,3,0,Session timeout
+18,SIM-0018,casual_browser,Cart abandonment,View|View|Cart|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+19,SIM-0019,decisive_buyer,High purchase intent,Cart|Cart|Cart|Purchase,Interested|Ready|Interested|Ready,4,1,Purchase
+20,SIM-0020,typical_shopper,High purchase intent,Purchase,Interested,1,1,Purchase
+21,SIM-0021,cart_abandoner,Cart abandonment,Cart|View|Cart|Cart|Cart|View,Interested|Interested|Interested|Interested|Browsing|Browsing,6,0,Session timeout
+22,SIM-0022,cart_abandoner,High purchase intent,View|Checkout|Purchase,Interested|Interested|Ready,3,1,Purchase
+23,SIM-0023,casual_browser,Cart abandonment,View|View|View|View|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+24,SIM-0024,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+25,SIM-0025,typical_shopper,Successful purchase,Checkout|View|View|View|Purchase,Browsing|Browsing|Interested|Browsing|Ready,5,1,Purchase
+26,SIM-0026,decisive_buyer,High purchase intent,Cart|View|Purchase,Interested|Ready|Ready,3,1,Purchase
+27,SIM-0027,typical_shopper,Successful purchase,View|Cart|Cart|Cart|Purchase,Browsing|Interested|Interested|Interested|Ready,5,1,Purchase
+28,SIM-0028,casual_browser,Cart abandonment,Cart|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+29,SIM-0029,casual_browser,Casual browsing,View|View,Browsing|Interested,2,0,Session timeout
+30,SIM-0030,comparison_shopper,Cart abandonment,View|View|View|View|View|Cart|View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Browsing|Browsing|Browsing|Browsing,11,0,Session timeout
+31,SIM-0031,casual_browser,Checkout abandonment,Checkout|Cart,Browsing|Browsing,2,0,Session timeout
+32,SIM-0032,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+33,SIM-0033,typical_shopper,High purchase intent,View|Cart|Purchase,Interested|Interested|Ready,3,1,Purchase
+34,SIM-0034,comparison_shopper,Successful purchase,View|View|View|View|View|View|Purchase,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Interested,7,1,Purchase
+35,SIM-0035,cart_abandoner,Checkout abandonment,Cart|Checkout|Cart|Checkout|View|View|View|View,Browsing|Interested|Interested|Interested|Browsing|Interested|Interested|Interested,8,0,Session timeout
+36,SIM-0036,decisive_buyer,Casual browsing,Exit,Browsing,1,0,Exit
+37,SIM-0037,decisive_buyer,Checkout abandonment,Checkout|Cart|Cart|Cart,Interested|Ready|Ready|Ready,4,0,Session timeout
+38,SIM-0038,cart_abandoner,High purchase intent,View|Checkout|Cart|Purchase,Browsing|Interested|Interested|Interested,4,1,Purchase
+39,SIM-0039,casual_browser,Checkout abandonment,View|Cart|View|Checkout|View,Browsing|Browsing|Browsing|Interested|Browsing,5,0,Session timeout
+40,SIM-0040,comparison_shopper,High purchase intent,View|Cart|Checkout|Purchase,Browsing|Interested|Interested|Interested,4,1,Purchase
+41,SIM-0041,typical_shopper,Casual browsing,Exit,Browsing,1,0,Exit
+42,SIM-0042,typical_shopper,High purchase intent,Cart|Purchase,Ready|Ready,2,1,Purchase
+43,SIM-0043,casual_browser,Cart abandonment,View|Cart|View|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+44,SIM-0044,decisive_buyer,High purchase intent,View|Purchase,Interested|Ready,2,1,Purchase
+45,SIM-0045,comparison_shopper,Casual browsing,Exit,Browsing,1,0,Exit
+46,SIM-0046,typical_shopper,Successful purchase,View|View|View|Cart|Purchase,Browsing|Interested|Interested|Ready|Ready,5,1,Purchase
+47,SIM-0047,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+48,SIM-0048,decisive_buyer,High purchase intent,Cart|Purchase,Browsing|Ready,2,1,Purchase
+49,SIM-0049,typical_shopper,Successful purchase,View|View|Cart|Cart|Cart|Purchase,Browsing|Browsing|Interested|Ready|Ready|Ready,6,1,Purchase
+50,SIM-0050,decisive_buyer,High purchase intent,View|View|Purchase,Interested|Ready|Ready,3,1,Purchase
+51,SIM-0051,casual_browser,Casual browsing,Exit,Browsing,1,0,Exit
+52,SIM-0052,cart_abandoner,Cart abandonment,Cart|View|Cart,Interested|Interested|Interested,3,0,Session timeout
+53,SIM-0053,cart_abandoner,High purchase intent,Purchase,Interested,1,1,Purchase
+54,SIM-0054,casual_browser,Repeated product viewing,View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+55,SIM-0055,comparison_shopper,Cart abandonment,View|View|View|View|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+56,SIM-0056,comparison_shopper,Checkout abandonment,View|View|View|Cart|Cart|Checkout|Cart|View,Browsing|Browsing|Browsing|Browsing|Interested|Interested|Browsing|Browsing,8,0,Session timeout
+57,SIM-0057,casual_browser,Cart abandonment,View|View|Cart|Cart|Cart|View,Browsing|Browsing|Browsing|Browsing|Interested|Browsing,6,0,Session timeout
+58,SIM-0058,casual_browser,Casual browsing,Exit,Browsing,1,0,Exit
+59,SIM-0059,decisive_buyer,High purchase intent,View|Cart|View|Purchase,Browsing|Interested|Ready|Ready,4,1,Purchase
+60,SIM-0060,casual_browser,High purchase intent,Cart|Purchase,Browsing|Ready,2,1,Purchase
+61,SIM-0061,decisive_buyer,Successful purchase,View|View|Cart|View|Purchase,Browsing|Browsing|Interested|Interested|Interested,5,1,Purchase
+62,SIM-0062,casual_browser,Cart abandonment,View|View|View|Cart|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+63,SIM-0063,casual_browser,Checkout abandonment,View|View|Cart|Checkout|Cart,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+64,SIM-0064,comparison_shopper,Cart abandonment,View|View|Cart|View|View|Cart|View,Browsing|Browsing|Interested|Browsing|Browsing|Interested|Browsing,7,0,Session timeout
+65,SIM-0065,casual_browser,High purchase intent,View|Purchase,Browsing|Ready,2,1,Purchase
+66,SIM-0066,cart_abandoner,High purchase intent,Purchase,Interested,1,1,Purchase
+67,SIM-0067,typical_shopper,High purchase intent,Purchase,Interested,1,1,Purchase
+68,SIM-0068,casual_browser,Casual browsing,View|View|Exit,Browsing|Browsing|Interested,3,0,Exit
+69,SIM-0069,comparison_shopper,High purchase intent,View|View|View|Purchase,Browsing|Browsing|Browsing|Ready,4,1,Purchase
+70,SIM-0070,decisive_buyer,High purchase intent,Checkout|Cart|Purchase,Interested|Interested|Ready,3,1,Purchase
+71,SIM-0071,decisive_buyer,Checkout abandonment,View|View|Checkout,Browsing|Browsing|Interested,3,0,Session timeout
+72,SIM-0072,decisive_buyer,Checkout abandonment,Checkout|View,Interested|Browsing,2,0,Session timeout
+73,SIM-0073,typical_shopper,High purchase intent,View|View|Purchase,Browsing|Interested|Interested,3,1,Purchase
+74,SIM-0074,typical_shopper,Checkout abandonment,Cart|Cart|View|View|View|View|Checkout|Cart|Cart,Browsing|Browsing|Browsing|Browsing|Interested|Browsing|Interested|Ready|Ready,9,0,Session timeout
+75,SIM-0075,cart_abandoner,High purchase intent,Cart|Purchase,Interested|Interested,2,1,Purchase
+76,SIM-0076,cart_abandoner,Cart abandonment,View|View|View|Cart|Exit,Browsing|Browsing|Browsing|Interested|Interested,5,0,Exit
+77,SIM-0077,typical_shopper,Successful purchase,Cart|View|Cart|Cart|Cart|Cart|Purchase,Browsing|Browsing|Interested|Interested|Interested|Interested|Interested,7,1,Purchase
+78,SIM-0078,comparison_shopper,Cart abandonment,Cart|View|Exit,Browsing|Browsing|Browsing,3,0,Exit
+79,SIM-0079,typical_shopper,High purchase intent,Checkout|Cart|View|Purchase,Interested|Interested|Browsing|Ready,4,1,Purchase
+80,SIM-0080,comparison_shopper,Casual browsing,Exit,Browsing,1,0,Exit
+81,SIM-0081,casual_browser,Casual browsing,View|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+82,SIM-0082,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+83,SIM-0083,comparison_shopper,Cart abandonment,View|Cart|View|View|Cart|Cart|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Browsing|Browsing,8,0,Session timeout
+84,SIM-0084,casual_browser,High purchase intent,Purchase,Browsing,1,1,Purchase
+85,SIM-0085,casual_browser,Repeated product viewing,View|View|View|View,Browsing|Browsing|Interested|Browsing,4,0,Session timeout
+86,SIM-0086,casual_browser,Cart abandonment,View|View|View|Cart,Browsing|Browsing|Browsing|Interested,4,0,Session timeout
+87,SIM-0087,casual_browser,Cart abandonment,View|Cart|Exit,Browsing|Interested|Interested,3,0,Exit
+88,SIM-0088,comparison_shopper,Cart abandonment,View|View|View|View|View|View|Cart|View|Cart|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Browsing|Browsing,11,0,Session timeout
+89,SIM-0089,cart_abandoner,High purchase intent,View|Purchase,Browsing|Ready,2,1,Purchase
+90,SIM-0090,casual_browser,Cart abandonment,Cart|View|View|View|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+91,SIM-0091,casual_browser,Successful purchase,View|View|Cart|Cart|Purchase,Browsing|Browsing|Browsing|Browsing|Ready,5,1,Purchase
+92,SIM-0092,cart_abandoner,Cart abandonment,Cart|Cart|Cart|View|Exit,Browsing|Interested|Browsing|Browsing|Browsing,5,0,Exit
+93,SIM-0093,casual_browser,Checkout abandonment,Checkout|View|Cart|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+94,SIM-0094,typical_shopper,High purchase intent,View|Purchase,Browsing|Interested,2,1,Purchase
+95,SIM-0095,typical_shopper,Cart abandonment,Cart|Exit,Browsing|Browsing,2,0,Exit
+96,SIM-0096,comparison_shopper,Cart abandonment,Cart|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Interested,5,0,Session timeout
+97,SIM-0097,casual_browser,Casual browsing,View|View|Exit,Browsing|Browsing|Browsing,3,0,Exit
+98,SIM-0098,casual_browser,Cart abandonment,Cart|Cart|View,Browsing|Interested|Browsing,3,0,Session timeout
+99,SIM-0099,cart_abandoner,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+100,SIM-0100,typical_shopper,High purchase intent,View|View|Purchase,Browsing|Browsing|Interested,3,1,Purchase
+101,SIM-0101,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+102,SIM-0102,casual_browser,Cart abandonment,View|View|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Interested,6,0,Session timeout
+103,SIM-0103,typical_shopper,High purchase intent,View|Checkout|Purchase,Browsing|Interested|Interested,3,1,Purchase
+104,SIM-0104,casual_browser,Cart abandonment,View|Cart|View,Browsing|Browsing|Browsing,3,0,Session timeout
+105,SIM-0105,comparison_shopper,Successful purchase,Cart|Cart|Cart|View|Purchase,Browsing|Interested|Interested|Browsing|Interested,5,1,Purchase
+106,SIM-0106,typical_shopper,Casual browsing,View|View|View|Exit,Browsing|Browsing|Browsing|Browsing,4,0,Exit
+107,SIM-0107,cart_abandoner,Cart abandonment,View|View|View|Cart|Cart|Cart|Exit,Browsing|Browsing|Browsing|Interested|Interested|Interested|Browsing,7,0,Exit
+108,SIM-0108,decisive_buyer,High purchase intent,Cart|Purchase,Interested|Interested,2,1,Purchase
+109,SIM-0109,comparison_shopper,Cart abandonment,Cart|Cart|View|Cart|View|Cart|View|View|View,Browsing|Browsing|Browsing|Interested|Interested|Ready|Browsing|Browsing|Browsing,9,0,Session timeout
+110,SIM-0110,decisive_buyer,Cart abandonment,Cart|Cart,Browsing|Interested,2,0,Session timeout
+111,SIM-0111,cart_abandoner,Cart abandonment,Cart|View|View,Interested|Browsing|Interested,3,0,Session timeout
+112,SIM-0112,comparison_shopper,High purchase intent,Cart|Purchase,Browsing|Ready,2,1,Purchase
+113,SIM-0113,typical_shopper,High purchase intent,Cart|Cart|Checkout|Purchase,Interested|Interested|Interested|Interested,4,1,Purchase
+114,SIM-0114,comparison_shopper,Cart abandonment,View|View|View|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,7,0,Session timeout
+115,SIM-0115,casual_browser,Checkout abandonment,View|View|Checkout|View|Exit,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Exit
+116,SIM-0116,typical_shopper,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+117,SIM-0117,comparison_shopper,High purchase intent,View|Cart|Purchase,Browsing|Interested|Interested,3,1,Purchase
+118,SIM-0118,decisive_buyer,High purchase intent,View|Cart|Cart|Purchase,Browsing|Interested|Interested|Ready,4,1,Purchase
+119,SIM-0119,decisive_buyer,High purchase intent,Checkout|Purchase,Interested|Ready,2,1,Purchase
+120,SIM-0120,cart_abandoner,Checkout abandonment,View|View|Cart|Cart|View|View|Checkout|Cart|View,Browsing|Browsing|Interested|Browsing|Interested|Browsing|Interested|Browsing|Browsing,9,0,Session timeout
+121,SIM-0121,decisive_buyer,High purchase intent,View|Purchase,Browsing|Interested,2,1,Purchase
+122,SIM-0122,decisive_buyer,High purchase intent,View|Cart|Purchase,Browsing|Interested|Ready,3,1,Purchase
+123,SIM-0123,casual_browser,Casual browsing,View|View|View|Exit,Browsing|Browsing|Browsing|Ready,4,0,Exit
+124,SIM-0124,cart_abandoner,Checkout abandonment,Cart|Cart|Cart|View|Cart|Checkout|Cart|Checkout,Browsing|Interested|Interested|Browsing|Browsing|Interested|Interested|Interested,8,0,Session timeout
+125,SIM-0125,cart_abandoner,Cart abandonment,Cart|View|View|View,Browsing|Browsing|Interested|Browsing,4,0,Session timeout
+126,SIM-0126,comparison_shopper,Checkout abandonment,View|Cart|View|Checkout|Checkout|View|View|View|View|View|Cart|View,Browsing|Browsing|Browsing|Interested|Interested|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,12,0,Session timeout
+127,SIM-0127,casual_browser,Cart abandonment,View|Cart,Browsing|Ready,2,0,Session timeout
+128,SIM-0128,typical_shopper,Casual browsing,View|Exit,Browsing|Interested,2,0,Exit
+129,SIM-0129,decisive_buyer,High purchase intent,View|Cart|Cart|Purchase,Browsing|Browsing|Interested|Ready,4,1,Purchase
+130,SIM-0130,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+131,SIM-0131,comparison_shopper,Cart abandonment,View|View|View|View|View|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,7,0,Session timeout
+132,SIM-0132,decisive_buyer,High purchase intent,Cart|Cart|Purchase,Interested|Ready|Ready,3,1,Purchase
+133,SIM-0133,casual_browser,Casual browsing,View|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+134,SIM-0134,decisive_buyer,Cart abandonment,View|View|View|Cart|Cart|Cart,Browsing|Browsing|Browsing|Browsing|Ready|Ready,6,0,Session timeout
+135,SIM-0135,typical_shopper,High purchase intent,Checkout|Purchase,Interested|Ready,2,1,Purchase
+136,SIM-0136,decisive_buyer,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+137,SIM-0137,cart_abandoner,Casual browsing,Exit,Browsing,1,0,Exit
+138,SIM-0138,cart_abandoner,Casual browsing,Exit,Browsing,1,0,Exit
+139,SIM-0139,comparison_shopper,Checkout abandonment,View|View|Cart|View|View|Checkout|Cart|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Browsing|Browsing|Browsing|Browsing,11,0,Session timeout
+140,SIM-0140,comparison_shopper,Successful purchase,View|View|View|View|Purchase,Browsing|Browsing|Browsing|Browsing|Interested,5,1,Purchase
+141,SIM-0141,cart_abandoner,Casual browsing,Exit,Browsing,1,0,Exit
+142,SIM-0142,comparison_shopper,Cart abandonment,Cart|View|View|Cart|Cart|View|Cart|Cart|Cart|Cart,Interested|Browsing|Browsing|Browsing|Interested|Interested|Interested|Interested|Interested|Browsing,10,0,Session timeout
+143,SIM-0143,cart_abandoner,Casual browsing,Exit,Interested,1,0,Exit
+144,SIM-0144,decisive_buyer,Successful purchase,View|Cart|Checkout|Cart|Purchase,Browsing|Interested|Interested|Interested|Ready,5,1,Purchase
+145,SIM-0145,comparison_shopper,Cart abandonment,View|Cart|View|View|Cart|View|Cart|View|Cart|View|View|Exit,Browsing|Browsing|Browsing|Interested|Interested|Interested|Interested|Interested|Interested|Browsing|Browsing|Browsing,12,0,Exit
+146,SIM-0146,comparison_shopper,Casual browsing,Exit,Browsing,1,0,Exit
+147,SIM-0147,casual_browser,High purchase intent,View|View|View|Purchase,Browsing|Browsing|Browsing|Ready,4,1,Purchase
+148,SIM-0148,casual_browser,Checkout abandonment,View|View|Checkout|View|View,Browsing|Interested|Interested|Browsing|Browsing,5,0,Session timeout
+149,SIM-0149,cart_abandoner,Cart abandonment,View|View|Cart,Browsing|Browsing|Interested,3,0,Session timeout
+150,SIM-0150,casual_browser,Casual browsing,Exit,Browsing,1,0,Exit
+151,SIM-0151,casual_browser,Successful purchase,Cart|Checkout|View|Cart|Purchase,Browsing|Interested|Interested|Interested|Interested,5,1,Purchase
+152,SIM-0152,decisive_buyer,Successful purchase,Cart|Cart|Cart|View|Purchase,Interested|Interested|Interested|Interested|Ready,5,1,Purchase
+153,SIM-0153,decisive_buyer,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+154,SIM-0154,casual_browser,High purchase intent,Purchase,Browsing,1,1,Purchase
+155,SIM-0155,decisive_buyer,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+156,SIM-0156,cart_abandoner,High purchase intent,Cart|Cart|Cart|Purchase,Interested|Interested|Interested|Interested,4,1,Purchase
+157,SIM-0157,comparison_shopper,Cart abandonment,View|Cart|Cart|View|View,Browsing|Interested|Interested|Browsing|Browsing,5,0,Session timeout
+158,SIM-0158,comparison_shopper,High purchase intent,Cart|Purchase,Browsing|Browsing,2,1,Purchase
+159,SIM-0159,casual_browser,High purchase intent,View|View|Purchase,Browsing|Browsing|Ready,3,1,Purchase
+160,SIM-0160,cart_abandoner,Cart abandonment,View|Cart|View,Browsing|Interested|Interested,3,0,Session timeout
+161,SIM-0161,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+162,SIM-0162,casual_browser,Cart abandonment,View|View|Cart|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+163,SIM-0163,typical_shopper,High purchase intent,Purchase,Ready,1,1,Purchase
+164,SIM-0164,comparison_shopper,Cart abandonment,View|View|Cart|View|Cart|Cart|Exit,Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Browsing,7,0,Exit
+165,SIM-0165,casual_browser,Checkout abandonment,View|Checkout|View,Browsing|Interested|Interested,3,0,Session timeout
+166,SIM-0166,comparison_shopper,Cart abandonment,View|View|View|View|Cart|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+167,SIM-0167,comparison_shopper,Successful purchase,View|View|View|View|View|View|View|Purchase,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,8,1,Purchase
+168,SIM-0168,cart_abandoner,High purchase intent,Purchase,Interested,1,1,Purchase
+169,SIM-0169,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+170,SIM-0170,typical_shopper,Checkout abandonment,View|View|View|View|View|Checkout|Exit,Browsing|Browsing|Browsing|Browsing|Interested|Interested|Ready,7,0,Exit
+171,SIM-0171,decisive_buyer,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+172,SIM-0172,decisive_buyer,High purchase intent,View|View|View|Purchase,Browsing|Browsing|Browsing|Ready,4,1,Purchase
+173,SIM-0173,decisive_buyer,Cart abandonment,View|Cart,Browsing|Interested,2,0,Session timeout
+174,SIM-0174,decisive_buyer,Cart abandonment,View|Cart|Exit,Browsing|Interested|Interested,3,0,Exit
+175,SIM-0175,comparison_shopper,Cart abandonment,View|Cart|Cart|View|Exit,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Exit
+176,SIM-0176,casual_browser,Cart abandonment,View|View|Cart|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+177,SIM-0177,casual_browser,High purchase intent,Cart|View|Purchase,Browsing|Browsing|Ready,3,1,Purchase
+178,SIM-0178,comparison_shopper,Checkout abandonment,Cart|Checkout|View|View|View|Checkout|Cart|View,Interested|Interested|Browsing|Browsing|Browsing|Browsing|Interested|Browsing,8,0,Session timeout
+179,SIM-0179,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+180,SIM-0180,casual_browser,High purchase intent,View|View|Purchase,Browsing|Browsing|Interested,3,1,Purchase
+181,SIM-0181,decisive_buyer,Cart abandonment,Cart|View,Browsing|Browsing,2,0,Session timeout
+182,SIM-0182,typical_shopper,High purchase intent,Cart|Checkout|Purchase,Browsing|Interested|Interested,3,1,Purchase
+183,SIM-0183,cart_abandoner,Checkout abandonment,Checkout|View|View|Cart|Checkout|Cart|Cart|View|Exit,Interested|Interested|Browsing|Interested|Interested|Interested|Interested|Interested|Interested,9,0,Exit
+184,SIM-0184,typical_shopper,Casual browsing,Exit,Interested,1,0,Exit
+185,SIM-0185,comparison_shopper,Casual browsing,Exit,Browsing,1,0,Exit
+186,SIM-0186,casual_browser,Cart abandonment,Cart|Cart|Exit,Browsing|Browsing|Browsing,3,0,Exit
+187,SIM-0187,decisive_buyer,High purchase intent,Cart|Purchase,Interested|Ready,2,1,Purchase
+188,SIM-0188,decisive_buyer,High purchase intent,View|Cart|View|Purchase,Browsing|Interested|Interested|Interested,4,1,Purchase
+189,SIM-0189,casual_browser,Checkout abandonment,View|View|Checkout|Cart|Checkout|View,Browsing|Browsing|Interested|Interested|Interested|Browsing,6,0,Session timeout
+190,SIM-0190,casual_browser,Checkout abandonment,Checkout|Checkout|Cart,Interested|Interested|Interested,3,0,Session timeout
+191,SIM-0191,comparison_shopper,High purchase intent,Cart|Cart|View|Purchase,Browsing|Interested|Interested|Ready,4,1,Purchase
+192,SIM-0192,decisive_buyer,Successful purchase,View|View|View|Cart|Purchase,Browsing|Browsing|Browsing|Ready|Ready,5,1,Purchase
+193,SIM-0193,cart_abandoner,High purchase intent,Purchase,Interested,1,1,Purchase
+194,SIM-0194,typical_shopper,Successful purchase,Cart|View|View|Cart|Cart|Checkout|Purchase,Browsing|Browsing|Browsing|Interested|Interested|Ready|Ready,7,1,Purchase
+195,SIM-0195,casual_browser,Checkout abandonment,View|Checkout|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+196,SIM-0196,typical_shopper,Successful purchase,View|View|View|View|Cart|Purchase,Browsing|Browsing|Browsing|Browsing|Interested|Ready,6,1,Purchase
+197,SIM-0197,typical_shopper,Successful purchase,View|Cart|Cart|View|Cart|Purchase,Browsing|Interested|Interested|Interested|Interested|Ready,6,1,Purchase
+198,SIM-0198,cart_abandoner,Cart abandonment,Cart|View|View|Cart|View|View,Interested|Browsing|Browsing|Browsing|Interested|Interested,6,0,Session timeout
+199,SIM-0199,decisive_buyer,High purchase intent,Cart|Purchase,Interested|Ready,2,1,Purchase
+200,SIM-0200,typical_shopper,Checkout abandonment,Checkout|Cart|Exit,Browsing|Browsing|Interested,3,0,Exit
+201,SIM-0201,casual_browser,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+202,SIM-0202,decisive_buyer,High purchase intent,Cart|Purchase,Interested|Ready,2,1,Purchase
+203,SIM-0203,casual_browser,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+204,SIM-0204,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+205,SIM-0205,comparison_shopper,Cart abandonment,View|View|Cart|View|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+206,SIM-0206,decisive_buyer,High purchase intent,Cart|Purchase,Interested|Ready,2,1,Purchase
+207,SIM-0207,casual_browser,Cart abandonment,View|View|View|Cart|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+208,SIM-0208,casual_browser,Cart abandonment,Cart|View|Cart,Browsing|Browsing|Interested,3,0,Session timeout
+209,SIM-0209,casual_browser,Cart abandonment,Cart|Exit,Browsing|Browsing,2,0,Exit
+210,SIM-0210,cart_abandoner,Repeated product viewing,View|View|View|View,Browsing|Browsing|Browsing|Interested,4,0,Session timeout
+211,SIM-0211,comparison_shopper,Checkout abandonment,Cart|Checkout|View|View|View|View|Cart|Cart|View,Browsing|Interested|Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Ready,9,0,Session timeout
+212,SIM-0212,decisive_buyer,High purchase intent,View|Purchase,Ready|Ready,2,1,Purchase
+213,SIM-0213,decisive_buyer,High purchase intent,View|Purchase,Interested|Ready,2,1,Purchase
+214,SIM-0214,typical_shopper,Successful purchase,View|Cart|Cart|Cart|Cart|Purchase,Browsing|Browsing|Browsing|Interested|Interested|Ready,6,1,Purchase
+215,SIM-0215,comparison_shopper,Checkout abandonment,View|Checkout|Cart|Cart|View|Cart|Exit,Browsing|Interested|Browsing|Browsing|Browsing|Interested|Interested,7,0,Exit
+216,SIM-0216,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+217,SIM-0217,cart_abandoner,High purchase intent,View|Cart|Cart|Purchase,Browsing|Interested|Interested|Ready,4,1,Purchase
+218,SIM-0218,casual_browser,Repeated product viewing,View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+219,SIM-0219,cart_abandoner,Repeated product viewing,View|View|View|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+220,SIM-0220,comparison_shopper,Checkout abandonment,View|View|View|View|Cart|View|Checkout,Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Interested,7,0,Session timeout
+221,SIM-0221,comparison_shopper,Checkout abandonment,Checkout|View|Cart|View|View|Checkout|View|Cart|View|Cart|View,Browsing|Ready|Interested|Browsing|Ready|Interested|Browsing|Interested|Browsing|Interested|Interested,11,0,Session timeout
+222,SIM-0222,comparison_shopper,High purchase intent,Cart|Cart|Purchase,Interested|Ready|Ready,3,1,Purchase
+223,SIM-0223,comparison_shopper,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+224,SIM-0224,casual_browser,Casual browsing,View|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+225,SIM-0225,typical_shopper,High purchase intent,View|Cart|Purchase,Browsing|Interested|Interested,3,1,Purchase
+226,SIM-0226,cart_abandoner,Checkout abandonment,Checkout|View|View|Cart,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+227,SIM-0227,casual_browser,High purchase intent,View|Cart|Purchase,Browsing|Browsing|Ready,3,1,Purchase
+228,SIM-0228,casual_browser,Checkout abandonment,View|View|Checkout|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+229,SIM-0229,comparison_shopper,Successful purchase,View|View|View|Cart|Purchase,Browsing|Browsing|Browsing|Browsing|Ready,5,1,Purchase
+230,SIM-0230,cart_abandoner,High purchase intent,View|Checkout|Purchase,Browsing|Interested|Interested,3,1,Purchase
+231,SIM-0231,comparison_shopper,High purchase intent,View|View|Purchase,Browsing|Interested|Ready,3,1,Purchase
+232,SIM-0232,casual_browser,Cart abandonment,View|Cart|Cart|View|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+233,SIM-0233,comparison_shopper,Cart abandonment,View|Cart|Cart|View|View|View|View|Cart,Browsing|Interested|Interested|Browsing|Browsing|Browsing|Browsing|Browsing,8,0,Session timeout
+234,SIM-0234,comparison_shopper,High purchase intent,Checkout|Purchase,Interested|Ready,2,1,Purchase
+235,SIM-0235,casual_browser,Checkout abandonment,Cart|View|View|Checkout|View|View,Browsing|Browsing|Interested|Interested|Browsing|Browsing,6,0,Session timeout
+236,SIM-0236,cart_abandoner,High purchase intent,View|Purchase,Browsing|Browsing,2,1,Purchase
+237,SIM-0237,decisive_buyer,Cart abandonment,View|Cart|View,Browsing|Interested|Interested,3,0,Session timeout
+238,SIM-0238,decisive_buyer,High purchase intent,Purchase,Interested,1,1,Purchase
+239,SIM-0239,cart_abandoner,High purchase intent,View|Purchase,Browsing|Interested,2,1,Purchase
+240,SIM-0240,comparison_shopper,Cart abandonment,View|View|Cart|View|View|View|Exit,Browsing|Browsing|Interested|Interested|Browsing|Browsing|Browsing,7,0,Exit
+241,SIM-0241,typical_shopper,Repeated product viewing,View|View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+242,SIM-0242,comparison_shopper,Casual browsing,View|View|Exit,Browsing|Browsing|Browsing,3,0,Exit
+243,SIM-0243,cart_abandoner,High purchase intent,View|Cart|Purchase,Interested|Interested|Ready,3,1,Purchase
+244,SIM-0244,casual_browser,Cart abandonment,View|View|Cart|View|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing|Interested,6,0,Session timeout
+245,SIM-0245,cart_abandoner,Checkout abandonment,Cart|View|Checkout|View|Checkout|View|Checkout,Interested|Interested|Interested|Browsing|Interested|Browsing|Interested,7,0,Session timeout
+246,SIM-0246,typical_shopper,High purchase intent,View|Cart|View|Purchase,Browsing|Browsing|Browsing|Interested,4,1,Purchase
+247,SIM-0247,typical_shopper,Casual browsing,View|View|View|Exit,Browsing|Browsing|Browsing|Interested,4,0,Exit
+248,SIM-0248,casual_browser,Checkout abandonment,View|View|Cart|Checkout,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+249,SIM-0249,casual_browser,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+250,SIM-0250,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+251,SIM-0251,comparison_shopper,Cart abandonment,View|Cart|View|View|Cart|Cart|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,7,0,Session timeout
+252,SIM-0252,decisive_buyer,Checkout abandonment,View|Cart|View|Checkout|Cart|Cart|Cart,Browsing|Browsing|Browsing|Interested|Interested|Ready|Ready,7,0,Session timeout
+253,SIM-0253,cart_abandoner,Cart abandonment,Cart|Cart|Cart,Interested|Interested|Interested,3,0,Session timeout
+254,SIM-0254,cart_abandoner,Checkout abandonment,View|View|Cart|View|Checkout|View|View|Exit,Browsing|Browsing|Browsing|Interested|Interested|Browsing|Browsing|Interested,8,0,Exit
+255,SIM-0255,casual_browser,Casual browsing,View|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+256,SIM-0256,decisive_buyer,High purchase intent,View|View|Checkout|Purchase,Browsing|Browsing|Interested|Ready,4,1,Purchase
+257,SIM-0257,decisive_buyer,High purchase intent,Cart|Purchase,Interested|Interested,2,1,Purchase
+258,SIM-0258,typical_shopper,High purchase intent,Purchase,Ready,1,1,Purchase
+259,SIM-0259,cart_abandoner,Checkout abandonment,View|View|View|Cart|Checkout|View|Cart|Checkout|Cart,Browsing|Interested|Interested|Browsing|Browsing|Interested|Interested|Interested|Interested,9,0,Session timeout
+260,SIM-0260,comparison_shopper,Casual browsing,Exit,Browsing,1,0,Exit
+261,SIM-0261,cart_abandoner,Cart abandonment,Cart|Cart|Cart|Cart,Browsing|Ready|Interested|Interested,4,0,Session timeout
+262,SIM-0262,casual_browser,Repeated product viewing,View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+263,SIM-0263,casual_browser,Cart abandonment,Cart|View,Browsing|Browsing,2,0,Session timeout
+264,SIM-0264,cart_abandoner,High purchase intent,Cart|Cart|Cart|Purchase,Browsing|Interested|Interested|Interested,4,1,Purchase
+265,SIM-0265,typical_shopper,Casual browsing,View|View|Exit,Browsing|Browsing|Browsing,3,0,Exit
+266,SIM-0266,cart_abandoner,Cart abandonment,View|Cart|Cart|View|Exit,Browsing|Browsing|Browsing|Interested|Interested,5,0,Exit
+267,SIM-0267,comparison_shopper,High purchase intent,Purchase,Interested,1,1,Purchase
+268,SIM-0268,cart_abandoner,Cart abandonment,View|Cart|View,Browsing|Interested|Browsing,3,0,Session timeout
+269,SIM-0269,decisive_buyer,High purchase intent,View|Purchase,Browsing|Ready,2,1,Purchase
+270,SIM-0270,cart_abandoner,Successful purchase,Cart|View|View|View|View|View|Cart|Purchase,Interested|Interested|Browsing|Interested|Browsing|Browsing|Interested|Interested,8,1,Purchase
+271,SIM-0271,casual_browser,Cart abandonment,Cart|View|View|Exit,Browsing|Browsing|Browsing|Browsing,4,0,Exit
+272,SIM-0272,cart_abandoner,Cart abandonment,Cart|View|Cart|Cart|Cart|Cart|Cart|Cart|Exit,Interested|Browsing|Interested|Interested|Interested|Ready|Interested|Interested|Interested,9,0,Exit
+273,SIM-0273,comparison_shopper,Repeated product viewing,View|View|View|View|View|View|Exit,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,7,0,Exit
+274,SIM-0274,casual_browser,Cart abandonment,Cart|View|View|View|View,Browsing|Browsing|Browsing|Interested|Interested,5,0,Session timeout
+275,SIM-0275,decisive_buyer,Checkout abandonment,View|Cart|Cart|Checkout,Browsing|Interested|Interested|Interested,4,0,Session timeout
+276,SIM-0276,decisive_buyer,High purchase intent,View|Purchase,Interested|Interested,2,1,Purchase
+277,SIM-0277,casual_browser,Casual browsing,Exit,Browsing,1,0,Exit
+278,SIM-0278,comparison_shopper,Cart abandonment,View|View|View|View|Cart|Cart|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Interested|Interested,8,0,Session timeout
+279,SIM-0279,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+280,SIM-0280,decisive_buyer,High purchase intent,Purchase,Browsing,1,1,Purchase
+281,SIM-0281,cart_abandoner,Cart abandonment,View|View|View|Cart,Browsing|Browsing|Browsing|Interested,4,0,Session timeout
+282,SIM-0282,cart_abandoner,Cart abandonment,View|Cart|Cart|Cart|Cart,Browsing|Browsing|Browsing|Interested|Interested,5,0,Session timeout
+283,SIM-0283,decisive_buyer,Cart abandonment,Cart|Exit,Interested|Ready,2,0,Exit
+284,SIM-0284,comparison_shopper,Checkout abandonment,Cart|Checkout|View|View|Cart|Cart|Checkout|View|Cart|Cart,Browsing|Browsing|Browsing|Browsing|Interested|Interested|Interested|Interested|Interested|Interested,10,0,Session timeout
+285,SIM-0285,comparison_shopper,High purchase intent,View|Cart|View|Purchase,Browsing|Browsing|Browsing|Interested,4,1,Purchase
+286,SIM-0286,casual_browser,Casual browsing,View|View|View|Exit,Browsing|Browsing|Browsing|Browsing,4,0,Exit
+287,SIM-0287,comparison_shopper,High purchase intent,Purchase,Interested,1,1,Purchase
+288,SIM-0288,casual_browser,Cart abandonment,View|Cart|View|Cart|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Interested,6,0,Session timeout
+289,SIM-0289,casual_browser,Cart abandonment,Cart|View|Cart|Exit,Interested|Browsing|Interested|Interested,4,0,Exit
+290,SIM-0290,casual_browser,Cart abandonment,View|View|View|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+291,SIM-0291,decisive_buyer,Successful purchase,View|View|View|Checkout|View|Cart|Purchase,Browsing|Browsing|Interested|Interested|Interested|Ready|Ready,7,1,Purchase
+292,SIM-0292,typical_shopper,Cart abandonment,View|View|Cart,Browsing|Browsing|Browsing,3,0,Session timeout
+293,SIM-0293,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+294,SIM-0294,decisive_buyer,Cart abandonment,Cart|Cart,Interested|Interested,2,0,Session timeout
+295,SIM-0295,decisive_buyer,High purchase intent,View|Purchase,Browsing|Ready,2,1,Purchase
+296,SIM-0296,typical_shopper,Casual browsing,Exit,Interested,1,0,Exit
+297,SIM-0297,casual_browser,Casual browsing,View|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+298,SIM-0298,comparison_shopper,Successful purchase,View|View|View|View|Purchase,Browsing|Browsing|Browsing|Browsing|Browsing,5,1,Purchase
+299,SIM-0299,comparison_shopper,High purchase intent,Cart|Purchase,Browsing|Ready,2,1,Purchase
+300,SIM-0300,cart_abandoner,High purchase intent,Cart|Checkout|Purchase,Interested|Interested|Ready,3,1,Purchase
+301,SIM-0301,casual_browser,Cart abandonment,View|Cart|View|Cart,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+302,SIM-0302,typical_shopper,Successful purchase,View|View|View|Cart|View|Purchase,Browsing|Browsing|Browsing|Interested|Interested|Ready,6,1,Purchase
+303,SIM-0303,typical_shopper,Cart abandonment,Cart|Cart|Cart,Browsing|Interested|Interested,3,0,Session timeout
+304,SIM-0304,decisive_buyer,High purchase intent,Cart|Cart|View|Purchase,Interested|Ready|Ready|Ready,4,1,Purchase
+305,SIM-0305,comparison_shopper,Successful purchase,View|View|View|View|Cart|Purchase,Browsing|Browsing|Browsing|Browsing|Interested|Interested,6,1,Purchase
+306,SIM-0306,typical_shopper,Cart abandonment,Cart|View|View|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+307,SIM-0307,casual_browser,High purchase intent,Purchase,Browsing,1,1,Purchase
+308,SIM-0308,casual_browser,Repeated product viewing,View|View|View|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+309,SIM-0309,cart_abandoner,Cart abandonment,View|Cart|Cart|Exit,Browsing|Interested|Interested|Browsing,4,0,Exit
+310,SIM-0310,casual_browser,High purchase intent,View|Purchase,Browsing|Ready,2,1,Purchase
+311,SIM-0311,typical_shopper,Casual browsing,Exit,Browsing,1,0,Exit
+312,SIM-0312,casual_browser,High purchase intent,View|Purchase,Browsing|Browsing,2,1,Purchase
+313,SIM-0313,casual_browser,Cart abandonment,View|View|Cart|View,Browsing|Interested|Interested|Interested,4,0,Session timeout
+314,SIM-0314,cart_abandoner,Cart abandonment,Cart|View|View|Exit,Interested|Browsing|Interested|Interested,4,0,Exit
+315,SIM-0315,casual_browser,Cart abandonment,View|View|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Interested,6,0,Session timeout
+316,SIM-0316,cart_abandoner,Cart abandonment,View|View|Cart|Cart,Browsing|Browsing|Ready|Ready,4,0,Session timeout
+317,SIM-0317,comparison_shopper,High purchase intent,Cart|Purchase,Browsing|Interested,2,1,Purchase
+318,SIM-0318,casual_browser,Cart abandonment,View|Cart|View|View,Browsing|Interested|Browsing|Browsing,4,0,Session timeout
+319,SIM-0319,decisive_buyer,Checkout abandonment,Cart|Cart|Checkout,Ready|Ready|Ready,3,0,Session timeout
+320,SIM-0320,comparison_shopper,High purchase intent,View|View|Purchase,Browsing|Browsing|Browsing,3,1,Purchase
+321,SIM-0321,cart_abandoner,High purchase intent,Checkout|Purchase,Interested|Interested,2,1,Purchase
+322,SIM-0322,typical_shopper,Successful purchase,View|View|View|View|Checkout|Checkout|Purchase,Browsing|Interested|Interested|Interested|Interested|Ready|Ready,7,1,Purchase
+323,SIM-0323,cart_abandoner,Casual browsing,Exit,Browsing,1,0,Exit
+324,SIM-0324,casual_browser,Cart abandonment,View|Cart|Cart|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+325,SIM-0325,comparison_shopper,Cart abandonment,View|Cart|View|View|Cart|View|View,Browsing|Browsing|Interested|Browsing|Browsing|Browsing|Browsing,7,0,Session timeout
+326,SIM-0326,comparison_shopper,Cart abandonment,View|Cart|View|Exit,Browsing|Browsing|Browsing|Browsing,4,0,Exit
+327,SIM-0327,typical_shopper,High purchase intent,View|Cart|Purchase,Browsing|Interested|Ready,3,1,Purchase
+328,SIM-0328,comparison_shopper,Casual browsing,Exit,Browsing,1,0,Exit
+329,SIM-0329,cart_abandoner,Checkout abandonment,Cart|View|Checkout|Cart|View,Interested|Interested|Interested|Interested|Interested,5,0,Session timeout
+330,SIM-0330,casual_browser,Cart abandonment,View|View|Cart|View|Cart,Browsing|Browsing|Interested|Browsing|Browsing,5,0,Session timeout
+331,SIM-0331,comparison_shopper,High purchase intent,Checkout|Purchase,Interested|Interested,2,1,Purchase
+332,SIM-0332,decisive_buyer,Cart abandonment,View|Cart,Browsing|Interested,2,0,Session timeout
+333,SIM-0333,casual_browser,Cart abandonment,Cart|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+334,SIM-0334,cart_abandoner,High purchase intent,Purchase,Interested,1,1,Purchase
+335,SIM-0335,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+336,SIM-0336,casual_browser,High purchase intent,View|View|View|Purchase,Browsing|Browsing|Interested|Ready,4,1,Purchase
+337,SIM-0337,typical_shopper,High purchase intent,View|Purchase,Browsing|Browsing,2,1,Purchase
+338,SIM-0338,comparison_shopper,Cart abandonment,Cart|View|View|View|View|View|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Interested,10,0,Session timeout
+339,SIM-0339,decisive_buyer,Checkout abandonment,Cart|Checkout|Checkout|Cart|Exit,Browsing|Interested|Interested|Interested|Interested,5,0,Exit
+340,SIM-0340,casual_browser,Cart abandonment,View|Cart,Browsing|Browsing,2,0,Session timeout
+341,SIM-0341,decisive_buyer,Repeated product viewing,View|View|View|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+342,SIM-0342,decisive_buyer,Casual browsing,Exit,Browsing,1,0,Exit
+343,SIM-0343,decisive_buyer,High purchase intent,Cart|Cart|Cart|Purchase,Interested|Ready|Ready|Ready,4,1,Purchase
+344,SIM-0344,typical_shopper,Casual browsing,Exit,Interested,1,0,Exit
+345,SIM-0345,typical_shopper,Cart abandonment,Cart|View|Cart|View|View,Interested|Browsing|Interested|Interested|Browsing,5,0,Session timeout
+346,SIM-0346,typical_shopper,Casual browsing,View|View|View,Interested|Interested|Browsing,3,0,Session timeout
+347,SIM-0347,typical_shopper,High purchase intent,View|View|Checkout|Purchase,Browsing|Browsing|Interested|Ready,4,1,Purchase
+348,SIM-0348,typical_shopper,Cart abandonment,Cart|View|View|Cart|Cart|Cart|View|View,Interested|Browsing|Browsing|Browsing|Interested|Browsing|Browsing|Browsing,8,0,Session timeout
+349,SIM-0349,comparison_shopper,Cart abandonment,View|Cart|View|View|View|View|View|Cart|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Interested,9,0,Session timeout
+350,SIM-0350,decisive_buyer,High purchase intent,Purchase,Interested,1,1,Purchase
+351,SIM-0351,comparison_shopper,High purchase intent,View|Purchase,Browsing|Interested,2,1,Purchase
+352,SIM-0352,cart_abandoner,Cart abandonment,Cart|Cart|Cart,Interested|Interested|Browsing,3,0,Session timeout
+353,SIM-0353,casual_browser,Cart abandonment,View|View|View|View|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing|Interested,6,0,Session timeout
+354,SIM-0354,decisive_buyer,High purchase intent,Cart|Purchase,Interested|Ready,2,1,Purchase
+355,SIM-0355,decisive_buyer,Cart abandonment,Cart|Cart|View,Interested|Interested|Browsing,3,0,Session timeout
+356,SIM-0356,casual_browser,Cart abandonment,View|View|View|Cart,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+357,SIM-0357,cart_abandoner,Casual browsing,Exit,Browsing,1,0,Exit
+358,SIM-0358,typical_shopper,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+359,SIM-0359,comparison_shopper,High purchase intent,Checkout|View|View|Purchase,Interested|Browsing|Browsing|Browsing,4,1,Purchase
+360,SIM-0360,decisive_buyer,Cart abandonment,Cart|View|Cart,Interested|Interested|Ready,3,0,Session timeout
+361,SIM-0361,casual_browser,Cart abandonment,View|Cart|Cart|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+362,SIM-0362,decisive_buyer,Cart abandonment,View|View|View|Cart,Browsing|Browsing|Browsing|Interested,4,0,Session timeout
+363,SIM-0363,cart_abandoner,Checkout abandonment,View|View|Checkout|Checkout,Interested|Browsing|Interested|Interested,4,0,Session timeout
+364,SIM-0364,comparison_shopper,Repeated product viewing,View|View|View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,7,0,Session timeout
+365,SIM-0365,comparison_shopper,Checkout abandonment,View|View|View|View|Cart|Checkout|Exit,Browsing|Browsing|Interested|Interested|Interested|Browsing|Browsing,7,0,Exit
+366,SIM-0366,comparison_shopper,Checkout abandonment,Checkout|View|View|Cart|View|Exit,Browsing|Browsing|Browsing|Interested|Browsing|Browsing,6,0,Exit
+367,SIM-0367,casual_browser,Casual browsing,View|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+368,SIM-0368,decisive_buyer,High purchase intent,Purchase,Interested,1,1,Purchase
+369,SIM-0369,decisive_buyer,Successful purchase,Cart|View|Cart|Cart|Cart|Purchase,Interested|Interested|Ready|Ready|Ready|Ready,6,1,Purchase
+370,SIM-0370,casual_browser,Successful purchase,Cart|View|View|View|Purchase,Browsing|Browsing|Browsing|Browsing|Interested,5,1,Purchase
+371,SIM-0371,decisive_buyer,Casual browsing,Exit,Interested,1,0,Exit
+372,SIM-0372,casual_browser,Repeated product viewing,View|View|View|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+373,SIM-0373,casual_browser,Successful purchase,View|Cart|Cart|View|View|Purchase,Browsing|Browsing|Browsing|Browsing|Browsing|Ready,6,1,Purchase
+374,SIM-0374,decisive_buyer,High purchase intent,View|Purchase,Ready|Ready,2,1,Purchase
+375,SIM-0375,typical_shopper,High purchase intent,Cart|Cart|Cart|Purchase,Browsing|Interested|Interested|Ready,4,1,Purchase
+376,SIM-0376,comparison_shopper,High purchase intent,View|View|Purchase,Browsing|Browsing|Interested,3,1,Purchase
+377,SIM-0377,decisive_buyer,High purchase intent,Checkout|Purchase,Interested|Ready,2,1,Purchase
+378,SIM-0378,typical_shopper,Successful purchase,Cart|Cart|Cart|Cart|View|Purchase,Interested|Interested|Interested|Browsing|Interested|Ready,6,1,Purchase
+379,SIM-0379,typical_shopper,Successful purchase,Cart|View|Checkout|Cart|Purchase,Interested|Interested|Interested|Interested|Ready,5,1,Purchase
+380,SIM-0380,comparison_shopper,High purchase intent,Checkout|Purchase,Interested|Ready,2,1,Purchase
+381,SIM-0381,decisive_buyer,High purchase intent,View|Checkout|Purchase,Interested|Interested|Interested,3,1,Purchase
+382,SIM-0382,casual_browser,Cart abandonment,View|View|Cart|View|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+383,SIM-0383,casual_browser,Cart abandonment,View|View|Cart|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+384,SIM-0384,cart_abandoner,Casual browsing,Exit,Browsing,1,0,Exit
+385,SIM-0385,casual_browser,Cart abandonment,View|View|Cart,Browsing|Browsing|Browsing,3,0,Session timeout
+386,SIM-0386,cart_abandoner,High purchase intent,Cart|Checkout|Purchase,Interested|Interested|Interested,3,1,Purchase
+387,SIM-0387,casual_browser,Cart abandonment,Cart|Cart|Cart,Browsing|Browsing|Browsing,3,0,Session timeout
+388,SIM-0388,casual_browser,Cart abandonment,View|View|View|View|Cart|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+389,SIM-0389,decisive_buyer,Checkout abandonment,View|Cart|Checkout|Cart|Exit,Browsing|Interested|Ready|Ready|Interested,5,0,Exit
+390,SIM-0390,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+391,SIM-0391,comparison_shopper,High purchase intent,View|Purchase,Browsing|Browsing,2,1,Purchase
+392,SIM-0392,casual_browser,Casual browsing,View|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+393,SIM-0393,typical_shopper,Casual browsing,View|View|Exit,Browsing|Browsing|Browsing,3,0,Exit
+394,SIM-0394,typical_shopper,High purchase intent,View|Cart|Purchase,Browsing|Interested|Interested,3,1,Purchase
+395,SIM-0395,typical_shopper,High purchase intent,View|Purchase,Browsing|Ready,2,1,Purchase
+396,SIM-0396,comparison_shopper,Cart abandonment,View|Cart|Cart|View|View|Cart|View|Cart|View|View,Browsing|Interested|Interested|Browsing|Interested|Browsing|Browsing|Browsing|Browsing|Browsing,10,0,Session timeout
+397,SIM-0397,comparison_shopper,Checkout abandonment,View|View|Checkout|Cart|View|View|View|View|View|Cart|View,Browsing|Interested|Browsing|Interested|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,11,0,Session timeout
+398,SIM-0398,comparison_shopper,Cart abandonment,Cart|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Interested,5,0,Session timeout
+399,SIM-0399,comparison_shopper,Cart abandonment,View|Cart|View|View|Cart|View|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,10,0,Session timeout
+400,SIM-0400,typical_shopper,High purchase intent,Purchase,Ready,1,1,Purchase
+401,SIM-0401,decisive_buyer,High purchase intent,Checkout|Purchase,Interested|Ready,2,1,Purchase
+402,SIM-0402,typical_shopper,Cart abandonment,Cart|Cart|Exit,Browsing|Browsing|Interested,3,0,Exit
+403,SIM-0403,casual_browser,High purchase intent,Purchase,Browsing,1,1,Purchase
+404,SIM-0404,decisive_buyer,Cart abandonment,Cart|Exit,Interested|Interested,2,0,Exit
+405,SIM-0405,comparison_shopper,Cart abandonment,View|View|Cart|Cart|Cart|View|View|Cart,Browsing|Browsing|Interested|Browsing|Browsing|Browsing|Browsing|Browsing,8,0,Session timeout
+406,SIM-0406,cart_abandoner,Checkout abandonment,View|Checkout|Exit,Browsing|Browsing|Browsing,3,0,Exit
+407,SIM-0407,comparison_shopper,High purchase intent,View|View|View|Purchase,Browsing|Browsing|Browsing|Browsing,4,1,Purchase
+408,SIM-0408,decisive_buyer,High purchase intent,Checkout|Purchase,Interested|Ready,2,1,Purchase
+409,SIM-0409,typical_shopper,Casual browsing,Exit,Interested,1,0,Exit
+410,SIM-0410,casual_browser,High purchase intent,Purchase,Browsing,1,1,Purchase
+411,SIM-0411,casual_browser,Casual browsing,Exit,Browsing,1,0,Exit
+412,SIM-0412,casual_browser,Repeated product viewing,View|View|View|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+413,SIM-0413,typical_shopper,Successful purchase,View|View|View|View|Cart|Purchase,Browsing|Browsing|Browsing|Browsing|Interested|Ready,6,1,Purchase
+414,SIM-0414,cart_abandoner,Checkout abandonment,View|View|View|View|Checkout|Cart|Cart|Cart,Browsing|Browsing|Browsing|Browsing|Interested|Interested|Browsing|Interested,8,0,Session timeout
+415,SIM-0415,comparison_shopper,Cart abandonment,View|View|View|View|Cart|View|View|Exit,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,8,0,Exit
+416,SIM-0416,cart_abandoner,Checkout abandonment,Checkout|View|View|View|Cart|Cart|View|View|Cart,Interested|Browsing|Browsing|Browsing|Interested|Interested|Interested|Interested|Interested,9,0,Session timeout
+417,SIM-0417,decisive_buyer,High purchase intent,Cart|Purchase,Interested|Ready,2,1,Purchase
+418,SIM-0418,comparison_shopper,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+419,SIM-0419,comparison_shopper,High purchase intent,View|Checkout|Purchase,Interested|Interested|Ready,3,1,Purchase
+420,SIM-0420,cart_abandoner,High purchase intent,View|Purchase,Interested|Ready,2,1,Purchase
+421,SIM-0421,decisive_buyer,High purchase intent,View|Cart|Purchase,Browsing|Interested|Ready,3,1,Purchase
+422,SIM-0422,comparison_shopper,Checkout abandonment,View|View|Checkout|Cart|Checkout|Cart|Cart,Browsing|Browsing|Interested|Interested|Interested|Interested|Interested,7,0,Session timeout
+423,SIM-0423,cart_abandoner,Cart abandonment,View|View|Cart|Cart|Cart|Cart|Cart|View,Browsing|Browsing|Interested|Interested|Interested|Interested|Interested|Interested,8,0,Session timeout
+424,SIM-0424,decisive_buyer,Successful purchase,Cart|View|Cart|Cart|View|View|Cart|Purchase,Interested|Interested|Interested|Interested|Interested|Interested|Interested|Interested,8,1,Purchase
+425,SIM-0425,casual_browser,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+426,SIM-0426,decisive_buyer,Casual browsing,View|Exit,Interested|Interested,2,0,Exit
+427,SIM-0427,decisive_buyer,Repeated product viewing,View|View|View|View|View|Exit,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Exit
+428,SIM-0428,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+429,SIM-0429,casual_browser,Repeated product viewing,View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+430,SIM-0430,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+431,SIM-0431,comparison_shopper,Checkout abandonment,View|View|View|Cart|Cart|View|View|View|View|Checkout,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,10,0,Session timeout
+432,SIM-0432,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+433,SIM-0433,casual_browser,Checkout abandonment,View|Checkout|Exit,Browsing|Browsing|Browsing,3,0,Exit
+434,SIM-0434,typical_shopper,Successful purchase,View|Cart|Cart|View|Cart|Purchase,Browsing|Interested|Interested|Interested|Interested|Ready,6,1,Purchase
+435,SIM-0435,decisive_buyer,High purchase intent,View|Purchase,Interested|Ready,2,1,Purchase
+436,SIM-0436,comparison_shopper,Checkout abandonment,View|Cart|Cart|Cart|Checkout|Exit,Browsing|Browsing|Interested|Interested|Interested|Browsing,6,0,Exit
+437,SIM-0437,comparison_shopper,Checkout abandonment,Checkout|View|Cart|View|View|Cart|View|View,Interested|Browsing|Browsing|Browsing|Interested|Interested|Interested|Browsing,8,0,Session timeout
+438,SIM-0438,typical_shopper,Successful purchase,View|View|Cart|View|Cart|View|View|Purchase,Browsing|Browsing|Browsing|Browsing|Interested|Interested|Interested|Ready,8,1,Purchase
+439,SIM-0439,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+440,SIM-0440,decisive_buyer,Cart abandonment,View|Cart|Cart,Browsing|Interested|Ready,3,0,Session timeout
+441,SIM-0441,typical_shopper,High purchase intent,Cart|Checkout|Purchase,Interested|Interested|Ready,3,1,Purchase
+442,SIM-0442,typical_shopper,Cart abandonment,View|Cart|Exit,Browsing|Interested|Interested,3,0,Exit
+443,SIM-0443,typical_shopper,Casual browsing,Exit,Browsing,1,0,Exit
+444,SIM-0444,casual_browser,Checkout abandonment,View|Checkout|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+445,SIM-0445,typical_shopper,Repeated product viewing,View|View|View|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+446,SIM-0446,comparison_shopper,Checkout abandonment,View|View|View|Checkout|View|View|Cart|View|View|View|Exit,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,11,0,Exit
+447,SIM-0447,typical_shopper,High purchase intent,Cart|View|Purchase,Browsing|Browsing|Ready,3,1,Purchase
+448,SIM-0448,decisive_buyer,High purchase intent,View|Purchase,Interested|Ready,2,1,Purchase
+449,SIM-0449,decisive_buyer,Successful purchase,View|View|Cart|Checkout|Cart|Purchase,Browsing|Browsing|Browsing|Interested|Interested|Interested,6,1,Purchase
+450,SIM-0450,casual_browser,Cart abandonment,View|View|Cart|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+451,SIM-0451,comparison_shopper,Casual browsing,View|View|Exit,Browsing|Browsing|Browsing,3,0,Exit
+452,SIM-0452,typical_shopper,Cart abandonment,View|View|Cart|View|Cart|View,Browsing|Browsing|Browsing|Interested|Interested|Ready,6,0,Session timeout
+453,SIM-0453,typical_shopper,Checkout abandonment,View|Cart|View|Checkout|Cart|Cart,Browsing|Browsing|Browsing|Interested|Interested|Interested,6,0,Session timeout
+454,SIM-0454,decisive_buyer,Checkout abandonment,View|Cart|View|Checkout|View|Exit,Browsing|Interested|Interested|Interested|Interested|Interested,6,0,Exit
+455,SIM-0455,comparison_shopper,Checkout abandonment,View|Cart|Cart|Checkout|Exit,Browsing|Interested|Interested|Interested|Interested,5,0,Exit
+456,SIM-0456,cart_abandoner,High purchase intent,Purchase,Interested,1,1,Purchase
+457,SIM-0457,casual_browser,Cart abandonment,Cart|Cart|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Interested|Interested,6,0,Session timeout
+458,SIM-0458,decisive_buyer,Casual browsing,View|View,Interested|Interested,2,0,Session timeout
+459,SIM-0459,cart_abandoner,Cart abandonment,View|Cart|Cart|Exit,Browsing|Interested|Interested|Interested,4,0,Exit
+460,SIM-0460,comparison_shopper,Checkout abandonment,View|View|Cart|Checkout|Cart|View|Checkout|Cart|Cart|View|View,Browsing|Browsing|Interested|Interested|Browsing|Browsing|Interested|Interested|Interested|Interested|Browsing,11,0,Session timeout
+461,SIM-0461,casual_browser,High purchase intent,Checkout|Purchase,Browsing|Browsing,2,1,Purchase
+462,SIM-0462,casual_browser,Cart abandonment,Cart|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+463,SIM-0463,casual_browser,Cart abandonment,Cart|Cart|View|View,Browsing|Interested|Interested|Browsing,4,0,Session timeout
+464,SIM-0464,casual_browser,Cart abandonment,View|Cart|Cart|View|Exit,Browsing|Interested|Browsing|Browsing|Browsing,5,0,Exit
+465,SIM-0465,typical_shopper,Repeated product viewing,View|View|View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Ready,7,0,Session timeout
+466,SIM-0466,cart_abandoner,Cart abandonment,View|Cart|Cart,Browsing|Browsing|Interested,3,0,Session timeout
+467,SIM-0467,casual_browser,Cart abandonment,View|View|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+468,SIM-0468,typical_shopper,Successful purchase,View|View|Cart|Cart|Cart|Cart|Purchase,Browsing|Browsing|Interested|Ready|Ready|Ready|Ready,7,1,Purchase
+469,SIM-0469,cart_abandoner,Checkout abandonment,View|View|Cart|Cart|View|View|Checkout|Cart|Cart,Browsing|Browsing|Interested|Interested|Browsing|Browsing|Browsing|Interested|Interested,9,0,Session timeout
+470,SIM-0470,decisive_buyer,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+471,SIM-0471,comparison_shopper,Cart abandonment,View|Cart|Cart|Cart|Cart|Cart,Interested|Interested|Interested|Browsing|Interested|Interested,6,0,Session timeout
+472,SIM-0472,comparison_shopper,Cart abandonment,View|Cart|View|Exit,Browsing|Browsing|Browsing|Browsing,4,0,Exit
+473,SIM-0473,casual_browser,Cart abandonment,View|Cart|Cart|View|View|View,Browsing|Ready|Ready|Interested|Browsing|Browsing,6,0,Session timeout
+474,SIM-0474,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+475,SIM-0475,typical_shopper,Cart abandonment,Cart|Cart|View|View|Exit,Browsing|Browsing|Browsing|Browsing|Interested,5,0,Exit
+476,SIM-0476,casual_browser,Checkout abandonment,View|View|Checkout|View|View,Browsing|Browsing|Interested|Browsing|Browsing,5,0,Session timeout
+477,SIM-0477,casual_browser,Repeated product viewing,View|View|View|View,Browsing|Browsing|Browsing|Interested,4,0,Session timeout
+478,SIM-0478,casual_browser,Cart abandonment,View|Cart|View,Browsing|Browsing|Browsing,3,0,Session timeout
+479,SIM-0479,comparison_shopper,Cart abandonment,Cart|Cart|View|Cart|View|View|View|View|View|Exit,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Interested|Browsing,10,0,Exit
+480,SIM-0480,cart_abandoner,Checkout abandonment,View|Cart|Cart|View|View|Cart|Checkout|Cart,Browsing|Ready|Interested|Browsing|Browsing|Browsing|Interested|Browsing,8,0,Session timeout
+481,SIM-0481,decisive_buyer,Successful purchase,Cart|View|View|Cart|Purchase,Browsing|Browsing|Interested|Interested|Interested,5,1,Purchase
+482,SIM-0482,casual_browser,Cart abandonment,Cart|Cart|View,Browsing|Browsing|Browsing,3,0,Session timeout
+483,SIM-0483,casual_browser,High purchase intent,Cart|Purchase,Browsing|Ready,2,1,Purchase
+484,SIM-0484,typical_shopper,High purchase intent,Checkout|Purchase,Browsing|Interested,2,1,Purchase
+485,SIM-0485,casual_browser,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+486,SIM-0486,comparison_shopper,Casual browsing,View|View|Exit,Browsing|Browsing|Interested,3,0,Exit
+487,SIM-0487,typical_shopper,High purchase intent,Cart|View|Purchase,Browsing|Browsing|Ready,3,1,Purchase
+488,SIM-0488,comparison_shopper,Successful purchase,View|View|View|View|Purchase,Browsing|Browsing|Browsing|Browsing|Browsing,5,1,Purchase
+489,SIM-0489,typical_shopper,Cart abandonment,View|Cart|Cart|Cart|Cart|View|Cart|Cart|View|View,Browsing|Interested|Interested|Interested|Interested|Interested|Interested|Interested|Interested|Interested,10,0,Session timeout
+490,SIM-0490,comparison_shopper,High purchase intent,Purchase,Interested,1,1,Purchase
+491,SIM-0491,casual_browser,High purchase intent,Cart|View|View|Purchase,Browsing|Browsing|Browsing|Interested,4,1,Purchase
+492,SIM-0492,casual_browser,Checkout abandonment,View|Checkout|View,Browsing|Browsing|Browsing,3,0,Session timeout
+493,SIM-0493,cart_abandoner,Cart abandonment,Cart|Cart|View,Interested|Interested|Browsing,3,0,Session timeout
+494,SIM-0494,casual_browser,High purchase intent,View|View|View|Purchase,Browsing|Browsing|Browsing|Interested,4,1,Purchase
+495,SIM-0495,casual_browser,Casual browsing,Exit,Browsing,1,0,Exit
+496,SIM-0496,comparison_shopper,High purchase intent,View|Checkout|Cart|Purchase,Browsing|Interested|Interested|Interested,4,1,Purchase
+497,SIM-0497,comparison_shopper,Cart abandonment,View|Cart|Cart|View|View|View|View|View,Browsing|Browsing|Interested|Browsing|Browsing|Browsing|Browsing|Browsing,8,0,Session timeout
+498,SIM-0498,typical_shopper,Checkout abandonment,Cart|Cart|Cart|View|View|View|Checkout|Cart,Interested|Interested|Interested|Browsing|Browsing|Interested|Interested|Interested,8,0,Session timeout
+499,SIM-0499,comparison_shopper,Checkout abandonment,Cart|Checkout|View|View|View|Cart,Interested|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+500,SIM-0500,comparison_shopper,Cart abandonment,View|View|View|View|View|Cart|Exit,Browsing|Browsing|Interested|Browsing|Browsing|Interested|Interested,7,0,Exit
+501,SIM-0501,casual_browser,Cart abandonment,View|Cart|View|View|Cart|View,Browsing|Interested|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+502,SIM-0502,casual_browser,Successful purchase,View|View|View|View|Purchase,Browsing|Browsing|Browsing|Browsing|Ready,5,1,Purchase
+503,SIM-0503,cart_abandoner,Cart abandonment,Cart|View|Cart|View|Cart,Interested|Interested|Interested|Browsing|Interested,5,0,Session timeout
+504,SIM-0504,casual_browser,Cart abandonment,View|Cart|View|View|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+505,SIM-0505,comparison_shopper,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+506,SIM-0506,comparison_shopper,Cart abandonment,View|View|Cart|View|View|View|Cart|Cart|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Browsing,9,0,Session timeout
+507,SIM-0507,typical_shopper,Cart abandonment,View|View|Cart|View,Interested|Browsing|Browsing|Browsing,4,0,Session timeout
+508,SIM-0508,comparison_shopper,Cart abandonment,View|View|Cart|Cart|View|Exit,Browsing|Browsing|Browsing|Browsing|Interested|Browsing,6,0,Exit
+509,SIM-0509,cart_abandoner,High purchase intent,View|Purchase,Browsing|Interested,2,1,Purchase
+510,SIM-0510,comparison_shopper,Repeated product viewing,View|View|View|View|View|View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,10,0,Session timeout
+511,SIM-0511,comparison_shopper,Checkout abandonment,View|View|Cart|Cart|View|View|Cart|View|View|Checkout,Browsing|Browsing|Ready|Interested|Browsing|Browsing|Browsing|Browsing|Browsing|Interested,10,0,Session timeout
+512,SIM-0512,cart_abandoner,Cart abandonment,View|Cart|View|Exit,Interested|Interested|Browsing|Browsing,4,0,Exit
+513,SIM-0513,comparison_shopper,Cart abandonment,View|Cart|View|Cart|View,Browsing|Interested|Interested|Browsing|Browsing,5,0,Session timeout
+514,SIM-0514,casual_browser,Cart abandonment,Cart|Cart|Cart|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+515,SIM-0515,casual_browser,High purchase intent,View|Purchase,Browsing|Ready,2,1,Purchase
+516,SIM-0516,decisive_buyer,High purchase intent,Checkout|Purchase,Interested|Ready,2,1,Purchase
+517,SIM-0517,casual_browser,Casual browsing,Exit,Browsing,1,0,Exit
+518,SIM-0518,casual_browser,Cart abandonment,Cart|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing,5,0,Session timeout
+519,SIM-0519,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+520,SIM-0520,casual_browser,Cart abandonment,Cart|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+521,SIM-0521,decisive_buyer,Checkout abandonment,Cart|Cart|Checkout|Cart,Ready|Ready|Ready|Ready,4,0,Session timeout
+522,SIM-0522,decisive_buyer,Successful purchase,View|Checkout|Cart|View|Cart|Cart|Purchase,Browsing|Interested|Interested|Interested|Interested|Ready|Ready,7,1,Purchase
+523,SIM-0523,casual_browser,Cart abandonment,Cart|Cart|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+524,SIM-0524,cart_abandoner,Checkout abandonment,Cart|Checkout|Cart,Interested|Interested|Interested,3,0,Session timeout
+525,SIM-0525,typical_shopper,Cart abandonment,View|View|Cart|View|View,Browsing|Browsing|Browsing|Browsing|Interested,5,0,Session timeout
+526,SIM-0526,decisive_buyer,Cart abandonment,Cart|Cart|Cart|Cart|Cart|Cart,Browsing|Interested|Interested|Interested|Ready|Ready,6,0,Session timeout
+527,SIM-0527,decisive_buyer,Successful purchase,Cart|Checkout|Cart|Cart|View|Cart|Purchase,Interested|Interested|Interested|Interested|Interested|Interested|Interested,7,1,Purchase
+528,SIM-0528,cart_abandoner,Cart abandonment,Cart|Cart|Cart|Cart,Interested|Interested|Interested|Interested,4,0,Session timeout
+529,SIM-0529,decisive_buyer,Successful purchase,View|Checkout|Cart|View|Purchase,Interested|Interested|Interested|Interested|Ready,5,1,Purchase
+530,SIM-0530,typical_shopper,High purchase intent,Purchase,Browsing,1,1,Purchase
+531,SIM-0531,comparison_shopper,Casual browsing,View|Exit,Browsing|Browsing,2,0,Exit
+532,SIM-0532,cart_abandoner,High purchase intent,Cart|Purchase,Interested|Interested,2,1,Purchase
+533,SIM-0533,cart_abandoner,Successful purchase,View|Cart|View|Checkout|View|Purchase,Browsing|Interested|Browsing|Interested|Browsing|Interested,6,1,Purchase
+534,SIM-0534,casual_browser,Casual browsing,View|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+535,SIM-0535,comparison_shopper,Checkout abandonment,View|View|Checkout|Cart|View,Browsing|Browsing|Browsing|Interested|Browsing,5,0,Session timeout
+536,SIM-0536,cart_abandoner,Successful purchase,Cart|View|Cart|Cart|Purchase,Interested|Browsing|Browsing|Interested|Interested,5,1,Purchase
+537,SIM-0537,comparison_shopper,Cart abandonment,View|Cart|View|Cart|View|View|View,Browsing|Interested|Interested|Interested|Browsing|Browsing|Browsing,7,0,Session timeout
+538,SIM-0538,decisive_buyer,High purchase intent,Cart|Purchase,Ready|Ready,2,1,Purchase
+539,SIM-0539,typical_shopper,Checkout abandonment,View|Checkout|Checkout|View|View|View|View,Interested|Interested|Interested|Browsing|Browsing|Browsing|Browsing,7,0,Session timeout
+540,SIM-0540,comparison_shopper,Cart abandonment,View|Cart|View|Cart|Cart|View|Exit,Browsing|Browsing|Browsing|Interested|Interested|Browsing|Interested,7,0,Exit
+541,SIM-0541,comparison_shopper,Checkout abandonment,View|View|View|View|Checkout|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,7,0,Session timeout
+542,SIM-0542,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+543,SIM-0543,comparison_shopper,Repeated product viewing,View|View|View|View|View|View,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,6,0,Session timeout
+544,SIM-0544,casual_browser,Checkout abandonment,Checkout|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+545,SIM-0545,casual_browser,Casual browsing,View|View|View,Browsing|Browsing|Browsing,3,0,Session timeout
+546,SIM-0546,cart_abandoner,Cart abandonment,Cart|View|Cart,Interested|Browsing|Interested,3,0,Session timeout
+547,SIM-0547,casual_browser,Cart abandonment,Cart|Cart|View,Browsing|Interested|Browsing,3,0,Session timeout
+548,SIM-0548,casual_browser,Cart abandonment,View|Cart|View,Browsing|Browsing|Browsing,3,0,Session timeout
+549,SIM-0549,comparison_shopper,High purchase intent,Cart|Purchase,Interested|Ready,2,1,Purchase
+550,SIM-0550,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+551,SIM-0551,typical_shopper,Casual browsing,View|Exit,Interested|Interested,2,0,Exit
+552,SIM-0552,comparison_shopper,Cart abandonment,Cart|View|View|View|View|Cart|Cart|Cart|View,Interested|Browsing|Browsing|Browsing|Browsing|Interested|Interested|Ready|Interested,9,0,Session timeout
+553,SIM-0553,cart_abandoner,Cart abandonment,Cart|View|Cart,Interested|Browsing|Ready,3,0,Session timeout
+554,SIM-0554,casual_browser,Cart abandonment,View|View|View|View|Cart,Browsing|Browsing|Browsing|Browsing|Interested,5,0,Session timeout
+555,SIM-0555,comparison_shopper,Cart abandonment,Cart|View|View|Cart|Cart|View|View|View,Browsing|Browsing|Browsing|Interested|Browsing|Browsing|Browsing|Browsing,8,0,Session timeout
+556,SIM-0556,typical_shopper,High purchase intent,Cart|View|Purchase,Interested|Interested|Ready,3,1,Purchase
+557,SIM-0557,comparison_shopper,Successful purchase,Cart|View|Checkout|Cart|Purchase,Browsing|Browsing|Interested|Interested|Ready,5,1,Purchase
+558,SIM-0558,cart_abandoner,Cart abandonment,View|Cart|View,Browsing|Interested|Browsing,3,0,Session timeout
+559,SIM-0559,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+560,SIM-0560,typical_shopper,Cart abandonment,Cart|Exit,Interested|Browsing,2,0,Exit
+561,SIM-0561,casual_browser,Cart abandonment,View|Cart|Cart|View,Browsing|Browsing|Browsing|Browsing,4,0,Session timeout
+562,SIM-0562,typical_shopper,High purchase intent,View|View|Cart|Purchase,Browsing|Interested|Interested|Ready,4,1,Purchase
+563,SIM-0563,comparison_shopper,Cart abandonment,View|View|View|View|View|View|View|View|Cart|Cart|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Interested|Browsing,11,0,Session timeout
+564,SIM-0564,cart_abandoner,Casual browsing,Exit,Browsing,1,0,Exit
+565,SIM-0565,casual_browser,Casual browsing,View|View,Browsing|Browsing,2,0,Session timeout
+566,SIM-0566,decisive_buyer,Casual browsing,Exit,Interested,1,0,Exit
+567,SIM-0567,decisive_buyer,Successful purchase,Cart|Cart|Checkout|Checkout|Purchase,Interested|Interested|Interested|Interested|Interested,5,1,Purchase
+568,SIM-0568,casual_browser,Cart abandonment,Cart|Cart|Cart|Cart|Cart|View,Browsing|Browsing|Interested|Interested|Interested|Browsing,6,0,Session timeout
+569,SIM-0569,typical_shopper,Cart abandonment,Cart|Cart|View|View|Cart|Cart|View|View|View|Cart,Interested|Interested|Interested|Interested|Browsing|Browsing|Interested|Interested|Interested|Ready,10,0,Session timeout
+570,SIM-0570,typical_shopper,Repeated product viewing,View|View|View|View,Browsing|Browsing|Ready|Browsing,4,0,Session timeout
+571,SIM-0571,comparison_shopper,High purchase intent,Purchase,Interested,1,1,Purchase
+572,SIM-0572,casual_browser,Checkout abandonment,Cart|View|View|Cart|Checkout|View,Browsing|Browsing|Browsing|Interested|Ready|Browsing,6,0,Session timeout
+573,SIM-0573,casual_browser,Cart abandonment,View|Cart|View|View|View,Browsing|Interested|Browsing|Browsing|Browsing,5,0,Session timeout
+574,SIM-0574,cart_abandoner,Cart abandonment,View|Cart|View|Cart|View|Cart,Browsing|Ready|Browsing|Interested|Browsing|Interested,6,0,Session timeout
+575,SIM-0575,decisive_buyer,Casual browsing,Exit,Browsing,1,0,Exit
+576,SIM-0576,decisive_buyer,High purchase intent,Cart|Cart|Purchase,Browsing|Interested|Ready,3,1,Purchase
+577,SIM-0577,comparison_shopper,Successful purchase,View|Cart|Cart|Cart|Purchase,Browsing|Interested|Interested|Interested|Ready,5,1,Purchase
+578,SIM-0578,typical_shopper,Checkout abandonment,View|View|View|Cart|Cart|Checkout|View,Browsing|Browsing|Browsing|Interested|Interested|Browsing|Browsing,7,0,Session timeout
+579,SIM-0579,casual_browser,Cart abandonment,View|View|View|View|Cart|Exit,Browsing|Browsing|Interested|Browsing|Interested|Browsing,6,0,Exit
+580,SIM-0580,typical_shopper,Checkout abandonment,Checkout|Cart|Checkout|Exit,Interested|Interested|Interested|Interested,4,0,Exit
+581,SIM-0581,cart_abandoner,Cart abandonment,View|Cart|View,Browsing|Browsing|Interested,3,0,Session timeout
+582,SIM-0582,cart_abandoner,High purchase intent,Purchase,Interested,1,1,Purchase
+583,SIM-0583,comparison_shopper,Cart abandonment,View|Cart|Cart|View|Cart|View,Browsing|Browsing|Interested|Interested|Interested|Interested,6,0,Session timeout
+584,SIM-0584,typical_shopper,Checkout abandonment,View|Cart|Checkout|View|Cart|Cart|View,Browsing|Interested|Interested|Interested|Interested|Interested|Browsing,7,0,Session timeout
+585,SIM-0585,typical_shopper,Cart abandonment,View|View|View|View|Cart|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,7,0,Session timeout
+586,SIM-0586,typical_shopper,Checkout abandonment,View|View|View|Cart|View|View|Checkout|View|Cart,Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing|Interested|Interested,9,0,Session timeout
+587,SIM-0587,casual_browser,Cart abandonment,View|View|Cart,Browsing|Browsing|Interested,3,0,Session timeout
+588,SIM-0588,decisive_buyer,High purchase intent,Purchase,Interested,1,1,Purchase
+589,SIM-0589,comparison_shopper,Checkout abandonment,Checkout|View|View|Cart|View|View|View|Cart|View|Cart,Browsing|Browsing|Browsing|Interested|Browsing|Browsing|Browsing|Browsing|Browsing|Browsing,10,0,Session timeout
+590,SIM-0590,typical_shopper,High purchase intent,View|Purchase,Browsing|Interested,2,1,Purchase
+591,SIM-0591,casual_browser,Checkout abandonment,View|View|Checkout,Browsing|Browsing|Browsing,3,0,Session timeout
+592,SIM-0592,decisive_buyer,High purchase intent,View|Cart|Purchase,Browsing|Interested|Ready,3,1,Purchase
+593,SIM-0593,casual_browser,Casual browsing,Exit,Browsing,1,0,Exit
+594,SIM-0594,casual_browser,Cart abandonment,Cart|View,Browsing|Browsing,2,0,Session timeout
+595,SIM-0595,decisive_buyer,High purchase intent,Purchase,Ready,1,1,Purchase
+596,SIM-0596,comparison_shopper,Cart abandonment,Cart|Cart|Cart|Exit,Interested|Browsing|Browsing|Browsing,4,0,Exit
+597,SIM-0597,typical_shopper,High purchase intent,Cart|Cart|Purchase,Interested|Interested|Ready,3,1,Purchase
+598,SIM-0598,typical_shopper,High purchase intent,View|Purchase,Browsing|Ready,2,1,Purchase
+599,SIM-0599,decisive_buyer,Cart abandonment,Cart|View|Cart,Browsing|Interested|Ready,3,0,Session timeout
+600,SIM-0600,cart_abandoner,High purchase intent,View|Checkout|Purchase,Browsing|Browsing|Interested,3,1,Purchase
